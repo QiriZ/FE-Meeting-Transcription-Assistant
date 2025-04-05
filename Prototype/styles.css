@@ -393,15 +393,17 @@ body {
     border-bottom: 1px solid #eee;
 }
 
+/* 修改h2标题样式 - 通常用于Q: 和 A: */
 .markdown-content h2 {
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 16px; /* 与正文相同的字号 */
+    font-weight: 600; /* 保持加粗效果 */
     margin: 18px 0 12px 0;
     color: #333;
 }
 
+/* 修改h3标题样式 */
 .markdown-content h3 {
-    font-size: 18px;
+    font-size: 16px; /* 与正文相同的字号 */
     font-weight: 500;
     margin: 15px 0 10px 0;
 }
